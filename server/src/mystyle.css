@@ -1,0 +1,97 @@
+html {
+    font-family: sans-serif;
+}
+
+body{
+    background-color:rgba(255, 165, 0, 0.2);
+    text-align: center;
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+    text-align: right;
+}
+
+table,table tr th, table tr td {
+    border: 2px solid silver;
+}
+
+table {
+    text-align: center;
+    margin:20px auto;
+    padding: 4px;
+    border-collapse: collapse;
+}
+
+.main{
+    max-width: 1000px;
+    min-width: 400px;
+    color:#663300;
+    margin:0 auto;
+}
+
+.header {
+    background-color: chocolate;
+    width: 100%;
+}
+.brand {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: mintcream;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #fff;
+}
+
+.footer {
+    background-color: chocolate;
+    position:absolute;
+    width: 100%;
+    left:0px;
+    bottom: 0px;
+    font-size: 10px;
+    color: mintcream;
+}
+
+.showSlots {
+    margin:0% 5% 3%;
+    padding: 0.1cm;
+    background-color:rgba(122, 22, 9, 0.829);
+    color:mintcream;
+}
+
+.addContent, .delContent, .showContent {
+    margin-bottom: 10px;
+}
+
+.fbtn {
+    background-color: chocolate;
+    color:white;
+    padding: 3px 5px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-left:10px;
+}
